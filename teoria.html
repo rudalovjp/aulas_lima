@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<!-- Define o idioma da pag como portugues -->
+<html lang= "pt-br"> 
+<head>
+    <meta charset="UTF-8">
+    <!-- Define o titulo da pag. -->
+    <title>Pagina inicial</title>
+
+    <style>
+        /* Seletor universal */
+        * {
+            margin: 0;
+        }
+        /* Seletor de tipo, aplicando em uma tag */
+        p{
+            color:brown;
+        }
+    /* Seletor de classe */
+    .paragrafo{
+        background-color: chocolate;
+        /* margin:10px; - Aplica em todas as margens*/
+        /* margin: 10px 40px; - aplica nas margens laterais e superior inferior */
+        margin: 10px 20px 30px 40px; /* Aplica margem top, right, bottom, left*/
+        text-align: center;
+    }
+    .imagem{
+        width: 150px;
+        height: 100px;
+    }
+    </style>
+</head>
+<!-- Contem todo o conteudo visivel da tela (body) -->
+<!-- Aplicando css inline cor de fundo -->
+<body style="background-color: blueviolet;">
+    Hello World!
+    <!--Títulos de nivel 1 ao 6-->
+    <h1>Lobo</h1>
+    <h2>Da</h2>
+    <h3>Morte</h3>
+    <h4>Rudalov</h4>
+    <h5>Rudalov</h5>
+    <h6>Rudalov</h6>
+
+    <!-- Insere uma linha na horizontal -->
+     <hr>
+    <!-- A tag 'p' insere um novo parágrafo -->
+    <p>Este é um parágrafo
+        Outro parágrafo
+    </p>
+    <hr>
+    <p>Este é um texto muito grande,
+        <!-- A tag br quebra a linha, tag sem fechamento -->
+        que eu desejo quebrar a linha</p>
+    </p>
+
+    <!-- Inserindo um link para abrir uma pagina -->
+     <a href="https://www.sesisp.org.br">Pagina do sesi</a>
+
+     <!-- Link com atributo _blank para abrir em outra janela -->
+     <a href="https://www.sesisp.org.br"target="_blank">Pagina do sesi</a>
+    
+     <!-- Tag img para adicionar uma imagem,
+     o atributo scr e preenchido com o caminho da imagem -->
+     <img src="https://upload.wikimedia.org/wikipedia/pt/thumb/e/e6/Tom%26JerryTales.jpg/250px-Tom%26JerryTales.jpg">
+    <img src="./img/tom e jerry.gif" />
+
+    <p>Paragrafo com caractere &lt;br&gt;</p>
+    <p>&reg; &copy; &trade; &euro; pound; &yen; &cent; &delta; &uarr; 
+
+    <!-- Para inserir emoji use o hexadecimal do site emojipedia.org e o código vai depois do &#x -->
+     <p>Inserindo um emoji &#xU+26BD</p>
+
+    <!-- Tags para formatação e enfatização do texto -->
+     <b>Texto em negrito</b><br>
+     <strong>Texto importante</strong>
+     <h1><i>H1 italico</i></h1>
+     <em>Texto enfatizado</em>
+     <mark>Texto marcado</mark><br>
+    <h3>Texto<small>Menor</small></h3>
+    <del>Texto Excluido</del><br>
+    <ins>Texto Inserido </ins>
+    <p>4<sub>2</sub></p>
+    <p>3<sup>3</sup></p>
+    <u>Texto sublinhado</u>
+
+    <!-- Aplicando link em uma imagem -->
+    <a href="https://www.sp.senai.br/"><img src="https://www.pensarcursos.com.br/blog/wp-content/uploads/2024/02/noticiasconcursos.com_.br-senai-oferece-mais-de-20-mil-vagas-para-cursos-gratuitos-e-pagos-veja-como-fazer-a-inscricao-senai-2022.jpg" alt=""></a>
+    <h3>Videos do youtube</h3>
+    <iframe width="928" height="522" src="https://www.youtube.com/embed/yuySKnP1Zz8" title="🎉 TOP 7 Episódios para celebrar 7 MILHÕES de inscritos no canal 🎉 | Pica-Pau" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    <!-- Aplicando css interno -->
+    <p class="paragrafo">
+        Logo
+        <img class="imagem" src="./img/tom e jerry.gif" alt="">
+    </p>
+    <hr>
+    <!-- Listas -->
+     <!-- Lista ordenada com numero romano minusculo -->
+      <ol type="i">
+        <li>Acordar</li>
+        <li>Tomar banho</li>
+        <li>Colocar uniforme</li>
+        <li>Tomar café</li>
+        <li>Escovar os dentes</li>
+        <li>Ir para escola</li>
+      </ol>
+    <!-- Lista ordenada com letras maiusculas -->
+    <ol type="A">
+        <li>Acordar</li>
+        <li>Tomar banho</li>
+        <li>Colocar uniforme</li>
+        <li>Tomar café</li>
+        <li>Escovar os dentes</li>
+        <li>Ir para escola</li>
+      </ol>
+    <!-- Lista não ordenada -->
+     <ul>
+        <li>Carvão</li>
+        <li>Carne</li>
+        <li>Bebidas</li>
+        <li>Arroz</li>
+     </ul>
+
+      <!-- Lista dentro de lista -->
+      <ul>
+        <li>Carne
+      <ul>
+        <li>Bebida</li>
+        </ul>
+        </li>
+     </ul>
+
+    <!-- Lista predefinida -->
+     <dl>
+        <dt>HTML</dt>
+        <dd>Linguagem de marcação para conteúdo de um site</dd>
+        <dt>CSS</dt>
+        <dd>Linguagem de estilização do site</dd>
+        <dt>Javascript</dt>
+        <dd>Linguagem de programação</dd>
+     </dl>
+    </body>
+</html>
