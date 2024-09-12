@@ -1,0 +1,14 @@
+.cabeçalho2{
+    background-color: rgb(56, 177, 228);
+}
+.cabeçalho, .celula{
+    /* Configura o formato da borda(Espessura, tipo e cor */
+
+    background-color: rgb(255, 255, 255);
+    }
+.timeruim {
+    background-color: #f65858;
+}
+.timebom{
+    background-color: rgb(77, 237, 101);
+}
