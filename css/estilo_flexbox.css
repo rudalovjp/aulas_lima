@@ -1,0 +1,106 @@
+.div1{
+    background-color: chartreuse;
+}
+.div2{
+    background-color: rgb(212, 0, 255);
+}
+.div3{
+    background-color: chartreuse;
+}
+
+.container{
+    border:  2px solid  black;
+    /* Limita o tamanho do elemento */
+    max-width: 400px;
+    margin: 0 auto;
+     /* Define o tamanho do elemento e o espaço entre eles */
+    display: flex;
+   
+}
+
+.item{
+    background: blue;
+    margin: 5px;
+    text-align: center;
+    color: aliceblue;
+}
+.flex{
+    display: flex;
+    flex-direction: column;
+}
+
+.flex > div > img {
+    height: 50px;
+    width: 50px;
+}
+.div-coluna{
+    height: 100px;
+    width: 100px;
+    background-color: aqua;
+}
+.secao {
+    display: flex;
+    flex-direction: row;
+    height: 600px;
+    background-color: brown;
+    /* Coloca espaço entre os elementos */
+    gap: 10px;
+    /* Quebra os elementos para outra linha, caso não haja espaço suficiente */
+    flex-wrap: wrap;
+}
+
+.secao-imagem {
+    width: 150px;
+    height: 150px;
+}
+
+.alinhar-esquerda {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+.alinhar-centro {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.alinhar-direita {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+.alinhar-entre {
+    display: flex;
+    flex-direction: row;
+    /* Aloca os elementos nas pontas e ajusta os elementos do centro */
+    justify-content: space-between;
+}
+
+.alinhar-redor {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    /* Distribui os itens com espaço ao redor deles */
+    justify-content: space-around;
+}
+
+.alinhar-coluna {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    /* Distribui os itens com espaço ao redor deles */
+    align-items: center;
+    justify-content: flex-start;
+    width: 100%;
+    background-color: blue;
+}
+
+.alinhar-itens-centro {
+    display: flex;
+    flex-direction: row;
+    /* Distribui os itens com espaço ao redor deles */
+    height: 200px;
+    background-color: darkgoldenrod;
+    align-items: center;
+    justify-content: space-between;
+}

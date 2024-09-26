@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexbox</title>
+    <link rel="stylesheet" href="./css/estilo_flexbox.css">
+</head>
+<body>
+    <h1>Trabalhando com Div</h1>
+    <div class="div1">
+        <h2>Londres</h2>
+        <p style="background-color: aqua;">Londres é a capital da Inglaterra</p>
+        <p>Londres tem 13 milhoes de Habitantes</p>
+        <label for="" class="div2">Texto</label>
+        <h1 class="div2">Texto H1</h1>
+        <label for="" class="div2">Texto2</label>
+    </div>
+    <div class="div2">
+        <h2>Londres</h2>
+        <p>Londres é a capital da Inglaterra</p>
+        <p>Londres tem 13 milhoes de Habitantes</p>
+    </div>
+    <div class="div3">
+        <h2>Londres</h2>
+        <p>Londres é a capital da Inglaterra</p>
+        <p>Londres tem 13 milhoes de Habitantes</p>
+    </div>
+
+    <h1>Trablhando com Flexbox</h1>
+    <p>Utilizamos flexbox para posicionar os elementos de uma linha ou coluna
+        de forma dinâmica
+    </p>
+    <p>Por padrão, os elementos são exibidos em bloco (block)</p>
+    <section class="container">
+        <div class="item">Item 1</div>
+        <div class="item">Item 2</div>
+        <div class="item">Item 3</div>
+        <div class="item">Item 4</div>
+    </section>
+    <p>Flex com mais elementos, preenchendo a largura da tela</p>
+    <section class="container">
+        <div class="item">Item 1</div>
+        <div class="item">Item 2</div>
+        <div class="item">Item 3</div>
+        <div class="item">Item 4</div>
+        <div class="item">Item 5</div>
+        <div class="item">Item 6</div>
+        <div class="item">Item 7</div>
+        <div class="item">Item 8</div>
+    </section>
+
+    <p>Flex direction - Alterando a direção do elemento</p>
+    <section class="flex">
+        <div class="div-coluna">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTMHl_0gA_Vb-10iAslCIFj_L51nvyveg388Q&s" alt="">
+        <p>Apenas um show</p>
+        </div>
+        <div class="div-coluna">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQTXoR0Gbdh82UPesyBIBrokBP_QkxTHb9cig&s" alt=""></div>
+        </div>
+            <div class="div-coluna">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTLvVSLH8ZGkEJ4zaY0MkxbVPnL8ZiOR9bBSA&s" alt=""></div>
+        </div>
+            <div class="div-coluna">
+            <img src="https://i.pinimg.com/236x/08/99/4d/08994dc8828d0268389ec0e50aca2331.jpg" alt="">
+        </div>
+    </section>
+    <p>Flex Wrap - Faz a quabra do elemento quando não há mais espaço na tela</p>
+    <section class="secao">
+        <img class="secao-imagem" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTMHl_0gA_Vb-10iAslCIFj_L51nvyveg388Q&s" alt="">
+        <img class="secao-imagem"src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQTXoR0Gbdh82UPesyBIBrokBP_QkxTHb9cig&s" alt="">
+        <img class="secao-imagem"src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTLvVSLH8ZGkEJ4zaY0MkxbVPnL8ZiOR9bBSA&s" alt="">
+        <img class="secao-imagem"src="https://i.pinimg.com/236x/08/99/4d/08994dc8828d0268389ec0e50aca2331.jpg" alt="">
+        <img class="secao-imagem"src="https://i.pinimg.com/236x/08/99/4d/08994dc8828d0268389ec0e50aca2331.jpg" alt="">
+        <img class="secao-imagem"src="https://i.pinimg.com/236x/08/99/4d/08994dc8828d0268389ec0e50aca2331.jpg" alt="">
+        <img class="secao-imagem"src="https://i.pinimg.com/236x/08/99/4d/08994dc8828d0268389ec0e50aca2331.jpg" alt="">
+        <img class="secao-imagem" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTMHl_0gA_Vb-10iAslCIFj_L51nvyveg388Q&s" alt="">
+        <img class="secao-imagem" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTMHl_0gA_Vb-10iAslCIFj_L51nvyveg388Q&s" alt="">
+        <img class="secao-imagem" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTMHl_0gA_Vb-10iAslCIFj_L51nvyveg388Q&s" alt="">
+    </section>
+    <p>Justify - content - Alinha os itens flex no container de acordo com a direção</p>
+    <section class="alinhar-esquerda">
+        <img class="secao-imagem" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTMHl_0gA_Vb-10iAslCIFj_L51nvyveg388Q&s" alt="">
+        <img class="secao-imagem"src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQTXoR0Gbdh82UPesyBIBrokBP_QkxTHb9cig&s" alt="">
+        <img class="secao-imagem"src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTLvVSLH8ZGkEJ4zaY0MkxbVPnL8ZiOR9bBSA&s" alt="">
+    </section>
+
+    <p>Alinhar ao centro</p>
+    <section class="alinhar-centro">
+        <img class="secao-imagem" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTMHl_0gA_Vb-10iAslCIFj_L51nvyveg388Q&s" alt="">
+        <img class="secao-imagem"src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQTXoR0Gbdh82UPesyBIBrokBP_QkxTHb9cig&s" alt="">
+        <img class="secao-imagem"src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTLvVSLH8ZGkEJ4zaY0MkxbVPnL8ZiOR9bBSA&s" alt="">
+    </section>
+
+    <p>Alinhar a direita</p>
+    <section class="alinhar-direita">
+        <img class="secao-imagem" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTMHl_0gA_Vb-10iAslCIFj_L51nvyveg388Q&s" alt="">
+        <img class="secao-imagem"src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQTXoR0Gbdh82UPesyBIBrokBP_QkxTHb9cig&s" alt="">
+        <img class="secao-imagem"src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTLvVSLH8ZGkEJ4zaY0MkxbVPnL8ZiOR9bBSA&s" alt="">
+    </section>
+
+    <p>Alinhar os elementos nos cantos e ajusta no centro</p>
+    <section class="alinhar-entre">
+        <img class="secao-imagem" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTMHl_0gA_Vb-10iAslCIFj_L51nvyveg388Q&s" alt="">
+        <img class="secao-imagem"src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQTXoR0Gbdh82UPesyBIBrokBP_QkxTHb9cig&s" alt="">
+        <img class="secao-imagem"src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTLvVSLH8ZGkEJ4zaY0MkxbVPnL8ZiOR9bBSA&s" alt="">
+    </section>
+
+    <p>Alinhar os elementos a partir do espaço ao redor</p>
+    <section class="alinhar-redor">
+        <img class="secao-imagem" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTMHl_0gA_Vb-10iAslCIFj_L51nvyveg388Q&s" alt="">
+        <img class="secao-imagem"src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQTXoR0Gbdh82UPesyBIBrokBP_QkxTHb9cig&s" alt="">
+        <img class="secao-imagem"src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTLvVSLH8ZGkEJ4zaY0MkxbVPnL8ZiOR9bBSA&s" alt="">
+    </section>
+
+    <p>Espaçamento usando colunas</p>
+    <section class="alinhar-coluna">
+        <img class="secao-imagem" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTMHl_0gA_Vb-10iAslCIFj_L51nvyveg388Q&s" alt="">
+        <img class="secao-imagem"src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQTXoR0Gbdh82UPesyBIBrokBP_QkxTHb9cig&s" alt="">
+        <img class="secao-imagem"src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTLvVSLH8ZGkEJ4zaY0MkxbVPnL8ZiOR9bBSA&s" alt="">
+    </section>
+
+    <section class="alinhar-itens-centro">
+        <div>Item 1</div>
+        <div>Item 2</div>
+        <div>Item 3</div>
+        <div>Item 4</div>
+    </section>
+</body>
+</html>
