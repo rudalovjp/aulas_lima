@@ -9,5 +9,76 @@
 
 .logo {
     font-family: Teko;
-    font-size: 2rem;
+    font-size: 3rem;
+    color: aliceblue;
+}
+a{
+    text-decoration: none;
+}
+nav{
+    max-width: 1120px;
+    width: 100%;
+    background-color: black;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+}
+body{
+    color: rgb(0, 0, 0);
+}
+.menu{
+    display: flex;
+    flex-direction: row;
+    gap: 1.5rem;
+    align-items: center;
+    font-size: larger;
+}
+li{
+    list-style: none;
+}
+li > a{
+    color: rgb(130, 161, 188);
+}
+.acessar{
+    color: darkgoldenrod;
+}
+.banner-cafe{
+    max-width: 1120px;
+    height: 60vh;
+    margin: auto;
+}
+.banner-cafe > img{
+    width: 100%;
+    box-shadow: 10px 0px 20px rgb(0, 0, 0, 0.6);
+    border-radius: 2px;
+    opacity: 0.8;
+}
+.banner-novidades{
+    max-width: 1120px;
+    height: 60vh;
+    margin: auto;
+    padding: 0rem 2rem;
+    gap: 6rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.banner-conteudo{
+    /* Organizamos o conteúdo em coluna  */
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+.banner-imagens{
+    /* Definir largura máxima */
+    max-width: 45%;
+    /* Exibir as imagens em 4 colunas */
+    column-count: 4;
+
+}
+.banner-imagens > figure > img{
+    width: 100%;
+    border-radius: 5px;     
 }

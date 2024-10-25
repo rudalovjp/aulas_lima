@@ -94,7 +94,6 @@
     width: 100%;
     background-color: blue;
 }
-
 .alinhar-itens-centro {
     display: flex;
     flex-direction: row;
