@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Teko:wght@300..700&display=swap');
 
-*{
+* {
     margin: 0;
     padding: 0;
     /*Assegura que padding e margin sejam incluidos nas dimensoes totais do elemento*/
@@ -12,10 +12,12 @@
     font-size: 3rem;
     color: aliceblue;
 }
-a{
+
+a {
     text-decoration: none;
 }
-nav{
+
+nav {
     max-width: 1120px;
     width: 100%;
     background-color: black;
@@ -25,37 +27,45 @@ nav{
     align-items: center;
     padding: 1rem;
 }
-body{
+
+body {
     color: rgb(0, 0, 0);
 }
-.menu{
+
+.menu {
     display: flex;
     flex-direction: row;
     gap: 1.5rem;
     align-items: center;
     font-size: larger;
 }
-li{
+
+li {
     list-style: none;
 }
-li > a{
+
+li>a {
     color: rgb(130, 161, 188);
 }
-.acessar{
+
+.acessar {
     color: darkgoldenrod;
 }
-.banner-cafe{
+
+.banner-cafe {
     max-width: 1120px;
     height: 60vh;
     margin: auto;
 }
-.banner-cafe > img{
+
+.banner-cafe>img {
     width: 100%;
     box-shadow: 10px 0px 20px rgb(0, 0, 0, 0.6);
     border-radius: 2px;
     opacity: 0.8;
 }
-.banner-novidades{
+
+.banner-novidades {
     max-width: 1120px;
     height: 60vh;
     margin: auto;
@@ -65,20 +75,130 @@ li > a{
     flex-direction: row;
     justify-content: space-between;
 }
-.banner-conteudo{
+
+.banner-conteudo {
     /* Organizamos o conteúdo em coluna  */
     display: flex;
     flex-direction: column;
     gap: 1rem;
 }
-.banner-imagens{
+
+.banner-imagens {
     /* Definir largura máxima */
     max-width: 45%;
     /* Exibir as imagens em 4 colunas */
     column-count: 4;
 
 }
-.banner-imagens > figure > img{
+
+.banner-imagens>figure>img {
     width: 100%;
-    border-radius: 5px;     
+    border-radius: 5px;
+}
+
+/* criando scroll para cards */
+.card-novo {
+    display: flex;
+    overflow: scroll;
+    gap: 3rem;
+    margin: auto;
+    max-width: 1120px;
+}
+
+/* removendo a barra de scrool */
+.card-novo::webkit-scrollbar {
+    display: none;
+}
+
+.receitas {
+    /* Organizando em colunas */
+    display: flex;
+    flex-direction: column;
+    max-width: 1120px;
+    padding: 2.5rem 2rem;
+    margin: auto;
+}
+
+.cabecalho-card {
+    background-color: #534743;
+    padding: 5px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.card {
+    margin-left: 40px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    box-shadow: 5px 0px 10px rgba(255, 255, 25, 0.7);
+    max-width: 260px;
+}
+.rodape-card{
+    background-color: #534743;
+    padding: 3px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+button{
+    width: 80px;
+    background-color: #A45A49;
+    color: #F7DC6F;
+    border-radius: 8px;
+    padding: 4px;
+}
+/* Mapa */
+.mapa {
+    max-width: 1120px;
+    width: 600px;
+    height: 400px;
+
+    /* Aplica papel de parede a nossa div */
+    background-image: url('../img/mapa.png');
+    /* Aplica tamanho da imagem em todo o espaço */
+    background-size: cover ;
+    background-repeat: no-repeat;
+    margin: 20px auto;
+    position: relative; 
+}
+.icone{
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    background-color: #f01ecd;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: antiquewhite;
+    cursor: pointer;
+    font-size: 18px;
+}
+.icone1 {
+    top: 10px;
+    left: 100px;
+}
+.icone2 {
+    top: 100px;
+    left: 220px;
+}
+/* Criando um elemento que não ira aparecer na tela */
+.div-hover {
+    /* Escondendo a imagem */
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    width: 500px;
+    height: 400px;
+}
+.icone:hover .div-hover{
+    /* Mostrando a imagem */
+    display: block;
+    position: absolute;
+    top: 15%;
+    left: 37%;
+
 }

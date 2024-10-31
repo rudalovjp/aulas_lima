@@ -5,16 +5,117 @@
     <meta charset="UTF-8">
     <!-- Define o titulo da pag. -->
     <title>Pagina inicial</title>
+    <link rel="stylesheet" href="./css/styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
 </head>
 <!-- Contem todo o conteudo visivel da tela (body) -->
 <body>
-    <h1><b>Técnico em desenvolvimento de sistemas SESI/SENAI</b><br><h1></h1>
-    <h3><b>Página de conteúdos e Atividades Sesi/Senai</b><br></h3>
-    <img src="https://cdn.diariodolitoral.com.br/img/pc/920/610/dn_arquivo/2024/07/logo-do-sesi.jpg"><br>
-    <a href="./Atividades/atividades.html">Atividades</a>
-    <p><a href="./teoria.html">Teoria</a></p>
-    <p><a href="./teoria.html">Teoria</a></p>
-
+    <nav class="navbar navbar-expand-lg bg-body-secondary">
+        <div class="container-fluid bg-dark">
+        <img src="./img/FIESP.png" style="width: 70px;">
+          <a class="navbar-brand ms-3 text-white" href="#"><i class="me-2"></i>Home</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active text-white" aria-current="page" href="#"><i"></i>Teoria</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="#"><i></i>Atividades</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="#"><i></i>Flexbox</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    <div class="text-center">
+        <h2>Técnico em desenvolvimento de Sistemas SESI/SENAI</h2>
+        <img src="https://www.sesisp.org.br/images/Sesi-SP.jpg" alt="" class="w-50">
+    </div>
+<section class="mt-2">
+    <h3 class="p-5 text-center">Páginas e atividades desenvolvidas</h3>
+        <div class="d-flex gap-3 flex-wrap justify-content-center">
+            <div class="card" style="width: 18rem;">
+                    <img src="./img/vini.jpg" class="card-img-top" alt="">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Atividades</h5>
+                        <p class="card-text">Veja suas atividades</p>
+                        <a href="./Atividades/atividades.html" class="btn btn-primary">Atividades</a>
+                    </div>
+            </div>
+            <div class="card" style="width: 18rem;">
+                <img src="./img/vini.jpg" class="card-img-top" alt="">
+                <div class="card-body text-center">
+                    <h5 class="card-title">Teoria</h5>
+                    <p class="card-text">Toda a teoria HTML</p>
+                    <a href="./teoria.html" class="btn btn-primary">Teoria</a>
+                </div>
+            </div>
+            <div class="card" style="width: 18rem;">
+                <img src="./img/vini.jpg" class="card-img-top" alt="">
+                <div class="card-body text-center">
+                    <h5 class="card-title">Teoria Flexbox</h5>
+                    <p class="card-text">Toda a teoria de flexbox</p>
+                    <a href="./teoria_flexbox.html" class="btn btn-primary">Teoria Flexbox</a>
+                </div>
+            </div>
+            <div class="card" style="width: 18rem;">
+                <img src="./img/vini.jpg" class="card-img-top" alt="">
+                <div class="card-body text-center">
+                    <h5 class="card-title">Formulários</h5>
+                    <p class="card-text">Atividade de formulários</p>
+                    <a href="./Atividades/exe08_formularios/index.html" class="btn btn-primary">Cafeteria</a>
+                </div>
+            </div>
+            <div class="card" style="width: 18rem;">
+                <img src="./img/vini.jpg" class="card-img-top" alt="">
+                <div class="card-body text-center">
+                    <h5 class="card-title">Receitas</h5>
+                    <p class="card-text">Atividade de receitas</p>
+                    <a href="./Atividades/exe05 - receitas/index.html" class="btn btn-primary">Receitas</a>
+                </div>
+            </div>
+            <div class="card" style="width: 18rem;">
+                <img src="./img/vini.jpg" class="card-img-top" alt="">
+                <div class="card-body text-center">
+                    <h5 class="card-title">Cafeteria</h5>
+                    <p class="card-text">Atividade da cafeteria</p>
+                    <a href="./Atividades/exe09_cafeteria/index.html" class="btn btn-primary">Cafeteria</a>
+                </div>
+            </div>
+            <div class="card" style="width: 18rem;">
+                <img src="./img/vini.jpg" class="card-img-top" alt="">
+                <div class="card-body text-center">
+                    <h5 class="card-title">Starbucks</h5>
+                    <p class="card-text">Atividade do starbucks</p>
+                    <a href="./Atividades/exe10_starbucks/index.html" class="btn btn-primary">Starbucks</a>
+                </div>
+            </div>
+            <div class="card" style="width: 18rem;">
+                <img src="./img/vini.jpg" class="card-img-top" alt="">
+                <div class="card-body text-center">
+                    <h5 class="card-title">Doçuras</h5>
+                    <p class="card-text">Atividade das doçuras da vovó</p>
+                    <a href="./Atividades/exe11_docuras_da_vovo/index.html" class="btn btn-primary">Doçuras da vovó</a>
+                </div>
+            </div>
+            <div class="card" style="width: 18rem;">
+                <img src="./img/vini.jpg" class="card-img-top" alt="">
+                <div class="card-body text-center">
+                    <h5 class="card-title">Eventos Senai</h5>
+                    <p class="card-text">Atividade do evento senai</p>
+                    <a href="./Atividades/evento-senai/index.html" class="btn btn-primary">Evento senai</a>
+                </div>
+            </div>
+        </div>
+</section>
+<footer class="text-center">
     <p>&reg; Desenvolvido por JP Rudalov</p>
+</footer>
 </body>
 </html>

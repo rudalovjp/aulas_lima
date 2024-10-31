@@ -1,0 +1,51 @@
+.logo {
+    font-family: Teko;
+    font-size: 3rem;
+    color: aliceblue;
+}
+.menu {
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    align-items: center;
+    justify-content: space-between;
+    font-size: larger;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: black;
+}
+nav {
+    background-color: rgb(252, 252, 231);
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 1rem;
+}
+.espaco {
+    padding: 20rem;
+}
+li {
+    list-style: none;
+}
+li> a {
+    color: rgb(0, 0, 0)
+}
+a {
+    text-decoration: none;
+}
+.logo {
+    width: 70px;
+    height: 70px;
+}
+.imag {
+    margin: auto;
+}
+.comunicado {
+    display: flex;
+    flex-direction: row;
+    /* Distribui os itens com espaço ao redor deles */
+    height: 170px;
+    margin: 40px;
+    background-color: rgb(157, 182, 162);
+    align-items: center;
+    color: rgb(3, 59, 0);
+}
