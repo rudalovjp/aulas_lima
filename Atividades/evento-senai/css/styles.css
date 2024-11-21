@@ -1,12 +1,15 @@
 .banner-container {
     position: relative;
 }
-
+.banner {
+    background-color: black;
+}
 .banner > img {
     width: 100%;
     height: auto;
     object-fit: fill;
     max-height: 400px;
+    opacity: 0.4;
 }
 .banner-text {
     position: absolute;
